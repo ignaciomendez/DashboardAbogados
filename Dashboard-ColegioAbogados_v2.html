@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Sistema Colegio Abogados</title>
+ 
+<script src="Dashboard-ColegioAbogados_v2_files/ga_002.js" async="" type="text/javascript"></script><script src="Dashboard-ColegioAbogados_v2_files/cloudflare_002.js" async=""></script><script src="Dashboard-ColegioAbogados_v2_files/ga.js" async="" type="text/javascript"></script><script src="Dashboard-ColegioAbogados_v2_files/cloudflare.js" async=""></script><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"fe35a1355a0fbde80f9eb3ba585736a6",petok:"e7bd53b7fd30e8ac7d79dc9b97ec99518117f5b2-1473798129-1800",zone:"adbee.technology",rocket:"0",apps:{"ga_key":{"ua":"UA-49262924-2","ga_bs":"2"}},sha2test:0}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=0489c402f5/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="Dashboard-ColegioAbogados_v2_files/bootstrap.css">
+ 
+<script src="Dashboard-ColegioAbogados_v2_files/demo-rtl.js"></script>
+ 
+ 
+<link rel="stylesheet" type="text/css" href="Dashboard-ColegioAbogados_v2_files/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="Dashboard-ColegioAbogados_v2_files/nanoscroller.css">
+ 
+<link rel="stylesheet" type="text/css" href="Dashboard-ColegioAbogados_v2_files/theme_styles.css">
+ 
+<link rel="stylesheet" href="Dashboard-ColegioAbogados_v2_files/daterangepicker.css" type="text/css">
+<link rel="stylesheet" href="Dashboard-ColegioAbogados_v2_files/jquery-jvectormap-1.css" type="text/css">
+<link rel="stylesheet" href="Dashboard-ColegioAbogados_v2_files/weather-icons.css" type="text/css">
+ 
+<link type="image/x-icon" href="http://cube.adbee.technology/favicon.png" rel="shortcut icon">
+ 
+<link href="Dashboard-ColegioAbogados_v2_files/css.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-49262924-2']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script><style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style><style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style>
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body class="theme-whbl  pace-done"><div class="pace  pace-inactive"><div data-progress="99" data-progress-text="100%" style="width: 100%;" class="pace-progress">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div><div class="pace  pace-inactive"><div data-progress="99" data-progress-text="100%" style="width: 100%;" class="pace-progress">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+<div id="theme-wrapper">
+<header class="navbar" id="header-navbar">
+<div class="container">
+<a href="http://cube.adbee.technology/index.html" id="logo" class="navbar-brand">
+<img src="Dashboard-ColegioAbogados_v2_files/logo-galt-retina-300x67.png" alt="" class="normal-logo logo-white">
+<img src="Dashboard-ColegioAbogados_v2_files/logo-black.png" alt="" class="normal-logo logo-black">
+<img src="Dashboard-ColegioAbogados_v2_files/logo-small.png" alt="" class="small-logo hidden-xs hidden-sm hidden">
+</a>
+<div class="clearfix">
+<button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="fa fa-bars"></span>
+</button>
+<div class="nav-no-collapse navbar-left pull-left hidden-sm hidden-xs">
+<ul class="nav navbar-nav pull-left">
+<li>
+<a class="btn" id="make-small-nav">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="dropdown hidden-xs">
+<a class="btn dropdown-toggle" data-toggle="dropdown">
+<i class="fa fa-bell"></i>
+<span class="count">8</span>
+</a>
+<ul class="dropdown-menu notifications-list">
+<li class="pointer">
+<div class="pointer-inner">
+<div class="arrow"></div>
+</div>
+</li>
+<li class="item-header">You have 6 new notifications</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-comment"></i>
+<span class="content">New comment on ‘Awesome P...</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-plus"></i>
+<span class="content">New user registration</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-envelope"></i>
+<span class="content">New Message from George</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-shopping-cart"></i>
+<span class="content">New purchase</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-eye"></i>
+<span class="content">New order</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item-footer">
+<a href="#">
+View all notifications
+</a>
+</li>
+</ul>
+</li>
+<li class="dropdown hidden-xs">
+<a class="btn dropdown-toggle" data-toggle="dropdown">
+<i class="fa fa-envelope-o"></i>
+<span class="count">12</span>
+</a>
+<ul class="dropdown-menu notifications-list messages-list">
+<li class="pointer">
+<div class="pointer-inner">
+<div class="arrow"></div>
+</div>
+</li>
+<li class="item first-item">
+<a href="#">
+<img src="Dashboard-ColegioAbogados_v2_files/messages-photo-1.png" alt="">
+<span class="content">
+<span class="content-headline">
+George Clooney
+</span>
+<span class="content-text">
+Look, just because I don't be givin' no man a foot massage don't make it
+right for Marsellus to throw...
+</span>
+</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item">
+<a href="#">
+<img src="Dashboard-ColegioAbogados_v2_files/messages-photo-2.png" alt="">
+<span class="content">
+<span class="content-headline">
+Emma Watson
+</span>
+<span class="content-text">
+Look, just because I don't be givin' no man a foot massage don't make it
+right for Marsellus to throw...
+</span>
+</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item">
+<a href="#">
+<img src="Dashboard-ColegioAbogados_v2_files/messages-photo-3.png" alt="">
+<span class="content">
+<span class="content-headline">
+Robert Downey Jr.
+</span>
+<span class="content-text">
+Look, just because I don't be givin' no man a foot massage don't make it
+right for Marsellus to throw...
+</span>
+</span>
+<span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+</a>
+</li>
+<li class="item-footer">
+<a href="#">
+View all messages
+</a>
+</li>
+</ul>
+</li>
+<li class="dropdown hidden-xs">
+<a class="btn dropdown-toggle" data-toggle="dropdown">Nueva Consulta<i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+<li class="item">
+<a href="#">
+<i class="fa fa-archive"></i>
+New Product
+</a>
+</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-shopping-cart"></i>
+New Order
+</a>
+</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-sitemap"></i>
+New Category
+</a>
+</li>
+<li class="item">
+<a href="#">
+<i class="fa fa-file-text"></i>
+New Page
+</a>
+</li>
+</ul>
+</li>
+<li class="dropdown hidden-xs">
+<a class="btn dropdown-toggle" data-toggle="dropdown">Español<i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+<li class="item">
+<a href="#">
+Spanish
+</a>
+</li>
+<li class="item">
+<a href="#">
+German
+</a>
+</li>
+<li class="item">
+<a href="#">
+Italian
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="nav-no-collapse pull-right" id="header-nav">
+<ul class="nav navbar-nav pull-right">
+<li class="mobile-search">
+<a class="btn">
+<i class="fa fa-search"></i>
+</a>
+<div class="drowdown-search">
+<form role="search">
+<div class="form-group">
+<input class="form-control" placeholder="Search..." type="text">
+<i class="fa fa-search nav-search-icon"></i>
+</div>
+</form>
+</div>
+</li>
+<li class="dropdown profile-dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<img src="Dashboard-ColegioAbogados_v2_files/Logo20Azul.png" alt="">
+<span class="hidden-xs">Colegio de Abogados</span> <b class="caret"></b>
+</a>
+<ul class="dropdown-menu dropdown-menu-right">
+<li><a href="http://cube.adbee.technology/user-profile.html"><i class="fa fa-user"></i>Profile</a></li>
+<li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
+<li><a href="#"><i class="fa fa-envelope-o"></i>Messages</a></li>
+<li><a href="#"><i class="fa fa-power-off"></i>Logout</a></li>
+</ul>
+</li>
+<li class="hidden-xxs">
+<a class="btn">
+<i class="fa fa-power-off"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+<div id="page-wrapper" class="container">
+<div class="row">
+<div id="nav-col">
+<section id="col-left" class="col-left-nano">
+<div id="col-left-inner" class="col-left-nano-content">
+<div id="user-left-box" class="clearfix hidden-sm hidden-xs dropdown profile2-dropdown">
+<img src="Dashboard-ColegioAbogados_v2_files/1380.jpg" alt="">
+<div class="user-box">
+<span class="name">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Colegio Abogados - Marcos Juarez<i class="fa fa-angle-down"></i>
+</a>
+<ul class="dropdown-menu">
+<li><a href="http://cube.adbee.technology/user-profile.html"><i class="fa fa-user"></i>Profile</a></li>
+<li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
+<li><a href="#"><i class="fa fa-envelope-o"></i>Messages</a></li>
+<li><a href="#"><i class="fa fa-power-off"></i>Logout</a></li>
+</ul>
+</span>
+<span class="status">
+<i class="fa fa-circle"></i> Online
+</span>
+</div>
+</div>
+<div class="collapse navbar-collapse navbar-ex1-collapse" id="sidebar-nav">
+<ul class="nav nav-pills nav-stacked">
+<li class="nav-header nav-header-first hidden-sm hidden-xs">
+Menú
+</li>
+<li class="active">
+<a href="http://cube.adbee.technology/index.html">
+<i class="fa fa-dashboard"></i>
+<span>Panel principal</span>
+<span class="label label-primary label-circle pull-right"></span>
+</a>
+</li>
+<li>
+<a href="#" class="dropdown-toggle">
+<i class="fa fa-user"></i>
+<span>Abogados</span>
+<i class="fa fa-angle-right drop-icon"></i>
+</a>
+<ul class="submenu">
+<li>
+<a href="http://cube.adbee.technology/tables.html">
+Simple
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/tables-advanced.html">
+Advanced
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/users.html">
+Users
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/tables-footables.html">
+FooTables
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#" class="dropdown-toggle">
+<i class="fa fa-money"></i>
+<span>Aportes</span>
+<i class="fa fa-angle-right drop-icon"></i>
+</a>
+<ul class="submenu">
+<li>
+<a href="http://cube.adbee.technology/email-inbox.html">
+Inbox
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/email-detail.html">
+Detail
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/email-compose.html">
+Compose
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#" class="dropdown-toggle">
+<i class="fa fa-bar-chart-o"></i>
+<span>Gráficos</span>
+<i class="fa fa-angle-right drop-icon"></i>
+</a>
+<ul class="submenu">
+<li>
+<a href="http://cube.adbee.technology/graphs-morris.html">
+Morris &amp; Mixed
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/graphs-flot.html">
+Flot
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/graphs-dygraphs.html">
+Dygraphs
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/graphs-xcharts.html">
+xCharts
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://cube.adbee.technology/widgets.html">
+<i class="fa fa-file-text-o"></i>
+<span>Juicios</span>
+
+</a>
+</li>
+<li>
+<a href="#" class="dropdown-toggle">
+<i class="fa fa-copy"></i>
+<span>Importar archivos</span>
+<i class="fa fa-angle-right drop-icon"></i>
+</a>
+<ul class="submenu">
+<li>
+<a href="http://cube.adbee.technology/calendar.html">
+Calendar
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/gallery.html">
+Gallery
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/gallery-v2.html">
+Gallery v2
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/pricing.html">
+Pricing
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/projects.html">
+Projects
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/team-members.html">
+Team Members
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/timeline.html">
+Timeline
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/timeline-grid.html">
+Timeline Grid
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/user-profile.html">
+User Profile
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/search.html">
+Search Results
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/invoice.html">
+Invoice
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/intro.html">
+Tour Layout
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-header hidden-sm hidden-xs">Configuración</li>
+<li>
+<a href="#" class="dropdown-toggle">
+<i class="fa fa-cog"></i>
+<span>Ajustes</span>
+<i class="fa fa-angle-right drop-icon"></i>
+</a>
+<ul class="submenu">
+<li>
+<a href="http://cube.adbee.technology/form-elements.html">
+Elements
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/x-editable.html">
+X-Editable
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/form-wizard.html">
+Wizard
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/form-wizard-popup.html">
+Wizard popup
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/form-wysiwyg.html">
+WYSIWYG
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/form-summernote.html">
+WYSIWYG Summernote
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/form-ckeditor.html">
+WYSIWYG CKEditor
+</a>
+</li>
+<li>
+<a href="http://cube.adbee.technology/form-dropzone.html">
+Multiple File Upload
+</a>
+</li>
+</ul>
+</li>
+
+
+
+
+</ul>
+</div>
+</div>
+</section>
+<div id="nav-col-submenu"></div>
+</div>
+<div id="content-wrapper">
+<div style="opacity: 1;" class="row">
+<div class="col-lg-12">
+<div class="row">
+<div class="col-lg-12">
+<div id="content-header" class="clearfix">
+<div class="pull-left">
+<ol class="breadcrumb">
+<li><a href="#">Home</a></li>
+<li class="active"><span>Panel principal</span></li>
+</ol>
+<h1>Sistema - Colegio de Abogados de Marcos Juárez</h1>
+</div>
+<div class="pull-right hidden-xs">
+<div class="xs-graph pull-left">
+<div class="graph-label">
+<b><i class="fa fa-user"></i>7542</b>Abogados</div>
+<div class="graph-content spark-orders"><canvas height="25" width="125" style="display: inline-block; width: 125px; height: 25px; vertical-align: top;"></canvas></div>
+</div>
+<div class="xs-graph pull-left mrg-l-lg mrg-r-sm">
+<div class="graph-label">
+<b>$12.338</b>Aportes último mes</div>
+<div class="graph-content spark-revenues"><canvas height="25" width="132" style="display: inline-block; width: 132px; height: 25px; vertical-align: top;"></canvas></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-sm-6 col-xs-12">
+<div class="main-box infographic-box colored emerald-bg">
+<i class="fa fa-money"></i>
+<span class="headline">Aportes a cobrar</span>
+<span class="value">$34.382</span>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 col-xs-12">
+<div class="main-box infographic-box colored green-bg">
+<i class="fa fa-money"></i>
+<span class="headline">Aportes cobrados</span>
+<span class="value">$22.631</span>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 col-xs-12">
+<div class="main-box infographic-box colored red-bg">
+<i class="fa fa-user"></i>
+<span class="headline">Abogados</span>
+<span class="value">7542</span>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 col-xs-12">
+<div class="main-box infographic-box colored purple-bg">
+<i class="fa fa-envelope"></i>
+<span class="headline">Novedades</span>
+<span class="value">12</span>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="main-box">
+<header class="main-box-header clearfix">
+<h2 class="pull-left">Histórico - Aportes a cobrar &amp; Aportes cobrados</h2>
+</header>
+<div class="main-box-body clearfix">
+<div class="row">
+<div class="col-md-9">
+<div id="graph-bar" style="height: 240px; padding: 0px; position: relative;"><canvas height="240" width="789" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 789px; height: 240px;" class="flot-base"></canvas><div style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);" class="flot-text"><div style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;" class="flot-x-axis flot-x1-axis xAxis x1Axis"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 753px; text-align: center;">Dec</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 37px; text-align: center;">Jan</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 103px; text-align: center;">Feb</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 162px; text-align: center;">Mar</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 229px; text-align: center;">Apr</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 292px; text-align: center;">May</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 362px; text-align: center;">Jun</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 428px; text-align: center;">Jul</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 490px; text-align: center;">Aug</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 558px; text-align: center;">Sep</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 623px; text-align: center;">Oct</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 56px; top: 224px; left: 688px; text-align: center;">Nov</div></div><div style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;" class="flot-y-axis flot-y1-axis yAxis y1Axis"><div class="flot-tick-label tickLabel" style="position: absolute; top: 211px; left: 21px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 169px; left: 7px; text-align: right;">250</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 127px; left: 7px; text-align: right;">500</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 84px; left: 7px; text-align: right;">750</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 42px; left: 0px; text-align: right;">1000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 0px; text-align: right;">1250</div></div></div><canvas height="240" width="789" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 789px; height: 240px;" class="flot-overlay"></canvas><div class="legend"><div style="position: absolute; width: 75px; height: 31px; top: 13px; right: 17px; background-color: rgb(255, 255, 255); opacity: 0.85;"> </div><table style="position:absolute;top:13px;right:17px;;font-size:smaller;color:#545454"><tbody><tr><td class="legendColorBox"><div style="border:1px solid #000000;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(3,169,244);overflow:hidden"></div></div></td><td class="legendLabel">Revenues</td></tr><tr><td class="legendColorBox"><div style="border:1px solid #000000;padding:1px"><div style="width:4px;height:0;border:5px solid #e84e40;overflow:hidden"></div></div></td><td class="legendLabel">Orders</td></tr></tbody></table></div></div>
+</div>
+<div class="col-md-3">
+<ul class="graph-stats">
+<li>
+<div class="clearfix">
+<div class="title pull-left">Aportes a cobrar</div>
+<div data-original-title="10% down" class="value pull-right" title="" data-toggle="tooltip">
+$34.382 <i class="fa fa-level-up green"></i>
+</div>
+</div>
+<div class="progress">
+<div style="width: 69%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="69" role="progressbar" class="progress-bar">
+<span class="sr-only">69% Complete</span>
+</div>
+</div>
+</li>
+<li>
+<div class="clearfix">
+<div class="title pull-left">Aportes cobrados</div>
+<div data-original-title="24% up" class="value pull-right" title="" data-toggle="tooltip">$22.631<i class="fa fa-level-up green"></i>
+</div>
+</div>
+<div class="progress">
+<div style="width: 49%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="42" role="progressbar" class="progress-bar progress-bar-danger">
+<span class="sr-only">42% Complete</span>
+</div>
+</div>
+</li>
+<li>
+<div class="clearfix">
+<div class="title pull-left">Abogados matriculados</div>
+<div data-original-title="8% up" class="value pull-right" title="" data-toggle="tooltip">7542<i class="fa fa-level-up green"></i>
+</div>
+</div>
+<div class="progress">
+<div style="width: 78%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="78" role="progressbar" class="progress-bar progress-bar-success">
+<span class="sr-only">78% Complete</span>
+</div>
+</div>
+</li>
+<li>
+<div class="clearfix">
+<div class="title pull-left">Juicios registrados</div>
+<div data-original-title="17% down" class="value pull-right" title="" data-toggle="tooltip">2483<i class=""></i>
+</div>
+</div>
+<div class="progress">
+<div style="width: 50%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="94" role="progressbar" class="progress-bar progress-bar-warning">
+<span class="sr-only">94% Complete</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<footer style="opacity: 1;" id="footer-bar" class="row">
+<p id="footer-copyright" class="col-xs-12">
+Powered by Cube Theme.
+</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+<div id="config-tool" class="closed">
+<a id="config-tool-cog">
+<i class="fa fa-cog"></i>
+</a>
+<div id="config-tool-options">
+<h4>Layout Options</h4>
+<ul>
+<li>
+<div class="checkbox-nice">
+<input id="config-fixed-header" type="checkbox">
+<label for="config-fixed-header">
+Fixed Header
+</label>
+</div>
+</li>
+<li>
+<div class="checkbox-nice">
+<input id="config-fixed-sidebar" type="checkbox">
+<label for="config-fixed-sidebar">
+Fixed Left Menu
+</label>
+</div>
+</li>
+<li>
+<div class="checkbox-nice">
+<input id="config-fixed-footer" type="checkbox">
+<label for="config-fixed-footer">
+Fixed Footer
+</label>
+</div>
+</li>
+<li>
+<div class="checkbox-nice">
+<input id="config-boxed-layout" type="checkbox">
+<label for="config-boxed-layout">
+Boxed Layout
+</label>
+</div>
+</li>
+<li>
+<div class="checkbox-nice">
+<input id="config-rtl-layout" type="checkbox">
+<label for="config-rtl-layout">
+Right-to-Left
+</label>
+</div>
+</li>
+</ul>
+<br>
+<h4>Skin Color</h4>
+<ul id="skin-colors" class="clearfix">
+<li>
+<a data-original-title="Default" class="skin-changer" data-skin="" data-toggle="tooltip" title="" style="background-color: #34495e;">
+</a>
+</li>
+<li>
+<a data-original-title="White/Green" class="skin-changer" data-skin="theme-white" data-toggle="tooltip" title="" style="background-color: #2ecc71;">
+</a>
+</li>
+<li>
+<a data-original-title="Gradient" class="skin-changer blue-gradient" data-skin="theme-blue-gradient" data-toggle="tooltip" title="">
+</a>
+</li>
+<li>
+<a data-original-title="Green Sea" class="skin-changer" data-skin="theme-turquoise" data-toggle="tooltip" title="" style="background-color: #1abc9c;">
+</a>
+</li>
+<li>
+<a data-original-title="Amethyst" class="skin-changer" data-skin="theme-amethyst" data-toggle="tooltip" title="" style="background-color: #9b59b6;">
+</a>
+</li>
+<li>
+<a data-original-title="Blue" class="skin-changer" data-skin="theme-blue" data-toggle="tooltip" title="" style="background-color: #2980b9;">
+</a>
+</li>
+<li>
+<a data-original-title="Red" class="skin-changer" data-skin="theme-red" data-toggle="tooltip" title="" style="background-color: #e74c3c;">
+</a>
+</li>
+<li>
+<a data-original-title="White/Blue" class="skin-changer" data-skin="theme-whbl" data-toggle="tooltip" title="" style="background-color: #3498db;">
+</a>
+</li>
+</ul>
+</div>
+</div>
+ 
+<script src="Dashboard-ColegioAbogados_v2_files/demo-skin-changer.js"></script>  
+<script src="Dashboard-ColegioAbogados_v2_files/jquery_006.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/bootstrap.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery_003.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/demo.js"></script>  
+ 
+<script src="Dashboard-ColegioAbogados_v2_files/moment.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery-jvectormap-1.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery-jvectormap-world-merc-en.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/gdp-data.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery_008.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery_005.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery_002.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery_004.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/jquery_007.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/skycons.js"></script>
+ 
+<script src="Dashboard-ColegioAbogados_v2_files/scripts.js"></script>
+<script src="Dashboard-ColegioAbogados_v2_files/pace.js"></script>
+ 
+<script>
+	$(document).ready(function() {
+		
+	    //CHARTS
+	    function gd(year, day, month) {
+			return new Date(year, month - 1, day).getTime();
+		}
+		
+		if ($('#graph-bar').length) {
+			var data1 = [
+			    [gd(2015, 1, 1), 838], [gd(2015, 1, 2), 749], [gd(2015, 1, 3), 634], [gd(2015, 1, 4), 1080], [gd(2015, 1, 5), 850], [gd(2015, 1, 6), 465], [gd(2015, 1, 7), 453], [gd(2015, 1, 8), 646], [gd(2015, 1, 9), 738], [gd(2015, 1, 10), 899], [gd(2015, 1, 11), 830], [gd(2015, 1, 12), 789]
+			];
+			
+			var data2 = [
+			    [gd(2015, 1, 1), 342], [gd(2015, 1, 2), 721], [gd(2015, 1, 3), 493], [gd(2015, 1, 4), 403], [gd(2015, 1, 5), 657], [gd(2015, 1, 6), 782], [gd(2015, 1, 7), 609], [gd(2015, 1, 8), 543], [gd(2015, 1, 9), 599], [gd(2015, 1, 10), 359], [gd(2015, 1, 11), 783], [gd(2015, 1, 12), 680]
+			];
+			
+			var series = new Array();
+
+			series.push({
+				data: data1,
+				bars: {
+					show : true,
+					barWidth: 24 * 60 * 60 * 12000,
+					lineWidth: 1,
+					fill: 1,
+					align: 'center'
+				},
+				label: 'Revenues'
+			});
+			series.push({
+				data: data2,
+				color: '#e84e40',
+				lines: {
+					show : true,
+					lineWidth: 3,
+				},
+				points: { 
+					fillColor: "#e84e40", 
+					fillColor: '#ffffff', 
+					pointWidth: 1,
+					show: true 
+				},
+				label: 'Orders'
+			});
+
+			$.plot("#graph-bar", series, {
+				colors: ['#03a9f4', '#f1c40f', '#2ecc71', '#3498db', '#9b59b6', '#95a5a6'],
+				grid: {
+					tickColor: "#f2f2f2",
+					borderWidth: 0,
+					hoverable: true,
+					clickable: true
+				},
+				legend: {
+					noColumns: 1,
+					labelBoxBorderColor: "#000000",
+					position: "ne"       
+				},
+				shadowSize: 0,
+				xaxis: {
+					mode: "time",
+					tickSize: [1, "month"],
+					tickLength: 0,
+					// axisLabel: "Date",
+					axisLabelUseCanvas: true,
+					axisLabelFontSizePixels: 12,
+					axisLabelFontFamily: 'Open Sans, sans-serif',
+					axisLabelPadding: 10
+				}
+			});
+
+			var previousPoint = null;
+			$("#graph-bar").bind("plothover", function (event, pos, item) {
+				if (item) {
+					if (previousPoint != item.dataIndex) {
+
+						previousPoint = item.dataIndex;
+
+						$("#flot-tooltip").remove();
+						var x = item.datapoint[0],
+						y = item.datapoint[1];
+
+						showTooltip(item.pageX, item.pageY, item.series.label, y );
+					}
+				}
+				else {
+					$("#flot-tooltip").remove();
+					previousPoint = [0,0,0];
+				}
+			});
+
+			function showTooltip(x, y, label, data) {
+				$('<div id="flot-tooltip">' + '<b>' + label + ': </b><i>' + data + '</i>' + '</div>').css({
+					top: y + 5,
+					left: x + 20
+				}).appendTo("body").fadeIn(200);
+			}
+		}
+	    
+		//WORLD MAP
+		$('#world-map').vectorMap({
+			map: 'world_merc_en',
+			backgroundColor: '#ffffff',
+			zoomOnScroll: false,
+			regionStyle: {
+				initial: {
+					fill: '#e1e1e1',
+					stroke: 'none',
+					"stroke-width": 0,
+					"stroke-opacity": 1
+				},
+				hover: {
+					"fill-opacity": 0.8
+				},
+				selected: {
+					fill: '#8dc859'
+				},
+				selectedHover: {
+				}
+			},
+			markerStyle: {
+				initial: {
+					fill: '#e84e40',
+					stroke: '#e84e40'
+				}
+			},
+			markers: [
+				{latLng: [38.35, -121.92], name: 'Los Angeles - 23'},
+				{latLng: [39.36, -73.12], name: 'New York - 84'},
+				{latLng: [50.49, -0.23], name: 'London - 43'},
+				{latLng: [36.29, 138.54], name: 'Tokyo - 33'},
+				{latLng: [37.02, 114.13], name: 'Beijing - 91'},
+				{latLng: [-32.59, 150.21], name: 'Sydney - 22'},
+			],
+			series: {
+				regions: [{
+					values: gdpData,
+					scale: ['#6fc4fe', '#2980b9'],
+					normalizeFunction: 'polynomial'
+				}]
+			},
+			onRegionLabelShow: function(e, el, code){
+				el.html(el.html()+' ('+gdpData[code]+')');
+			}
+		});
+
+		/* SPARKLINE - graph in header */
+		var orderValues = [10,8,5,7,4,4,3,8,0,7,10,6,5,4,3,6,8,9];
+
+		$('.spark-orders').sparkline(orderValues, {
+			type: 'bar', 
+			barColor: '#ced9e2',
+			height: 25,
+			barWidth: 6
+		});
+
+		var revenuesValues = [8,3,2,6,4,9,1,10,8,2,5,8,6,9,3,4,2,3,7];
+
+		$('.spark-revenues').sparkline(revenuesValues, {
+			type: 'bar', 
+			barColor: '#ced9e2',
+			height: 25,
+			barWidth: 6
+		});
+
+		/* ANIMATED WEATHER */
+		var skycons = new Skycons({"color": "#03a9f4"});
+		// on Android, a nasty hack is needed: {"resizeClear": true}
+
+		// you can add a canvas by it's ID...
+		skycons.add("current-weather", Skycons.SNOW);
+
+		// start animation!
+		skycons.play();
+
+	});
+	</script>
+
+<div class="jvectormap-label"></div><div class="jvectormap-label"></div></body></html>
